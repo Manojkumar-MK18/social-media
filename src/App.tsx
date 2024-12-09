@@ -1,18 +1,8 @@
-import React, { useState } from 'react';
-import './App.css';
-import { ThemeProvider } from './components/theme';
-import Header from './components/d';
-import ThemeToggleButton from './components/button';
+import React, { useState } from "react";
+import "./App.css";
 
 function App() {
-    
-
-    return (
-        <ThemeProvider>
-      <Header />
-      <ThemeToggleButton />
-    </ThemeProvider>
-    );
+  return <div>App</div>;
 }
 
 export default App;
